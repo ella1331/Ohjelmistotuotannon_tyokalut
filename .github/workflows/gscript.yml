@@ -5,6 +5,9 @@ on:
     types: [closed]
   pull_request:
     types: [opened]
+permissions:
+  issues: write
+  pull-requests: write
 
 jobs:
   issue-closed-comment:
